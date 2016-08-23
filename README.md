@@ -14,6 +14,7 @@ Service Control panel Apache, MySQL, PostgreSQL and MongoDB written in Python.
 
 # Synopsis
 A small python script to control the web services server operating system GNU / Linux.
+
 Objective: Scaling the script to make it adaptable to any operating system based on GNU / Linux, to ease the burden on startup.
 
 # What currently you do?
@@ -29,8 +30,11 @@ This is inspired by the need to have control of the services used for developing
   
   3) Run it type ./services-manager.py
   
-  For global use you can run copy the file in the folder /usr/bin/
-  Example: sudo cp service-manager.py /usr/bin/service-manager
+  
+  For global use you can copy the file in the folder /usr/bin/
+  
+    Example: sudo cp service-manager.py /usr/bin/service-manager
+  
   Run simply type services-manager in the terminal
 
 # License
