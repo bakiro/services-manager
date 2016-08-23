@@ -40,31 +40,31 @@ def printStatusServices():
     getStatusServices()
     if(apache):
         print("Apache : ON")
-        menu['1'] = "Turn off Apache"
+        menu['1'] = "TURN OFF Apache"
     else:
         print("Apache : OFF")
-        menu['1'] = "Turn on Apache"
+        menu['1'] = "TURN ON Apache"
 
     if(mysql):
         print("MySQL : ON")
-        menu['2'] = "Turn off MySQL"
+        menu['2'] = "TURN OFF MySQL"
     else:
         print("MySQL : OFF")
-        menu['2'] = "Turn on MySQL"
+        menu['2'] = "TURN ON MySQL"
 
     if(postgresql):
         print("PostgreSQL : ON")
-        menu['3'] = "Turn off PostgreSQL"
+        menu['3'] = "TURN OFF PostgreSQL"
     else:
         print("PostgreSQL : OFF")
-        menu['3'] = "Turn on PostgreSQL"
+        menu['3'] = "TURN ON PostgreSQL"
 
     if(mongodb):
         print("MongoDB : ON")
-        menu['4'] = "Turn off MongoDB"
+        menu['4'] = "TURN OFF  MongoDB"
     else:
         print("MongoDB : OFF")
-        menu['4'] = "Turn on MongoDB"
+        menu['4'] = "TURN ON MongoDB"
 
 
 def mainMenu():
