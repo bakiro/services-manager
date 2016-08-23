@@ -1,5 +1,16 @@
-# services-manager
-Service Control panel Apache, MySQL, PostgreSQL and MongoDB written in Python
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Gnulinux.svg/170px-Gnulinux.svg.png" align="left" width="192px" height="192px"/>
+<img align="left" width="0" height="192px" hspace="10"/>
+
+> The Services-Manager
+
+[![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE.md)
+
+
+Service Control panel Apache, MySQL, PostgreSQL and MongoDB written in Python.
+
+<br>
+
+<br>
 
 # Synopsis
 A small python script to control the web services server operating system GNU / Linux.
@@ -13,7 +24,9 @@ This is inspired by the need to have control of the services used for developing
 
 # Installation
   1) Download services-manager.py
+  
   2) Set this as executable
+  
   3) Run it type ./services-manager.py
   
   For global use you can run copy the file in the folder /usr/bin/
@@ -21,4 +34,4 @@ This is inspired by the need to have control of the services used for developing
   Run simply type services-manager in the terminal
 
 # License
-A short snippet describing the license (MIT, Apache, etc.)
+MIT
